@@ -10,6 +10,7 @@ color: hsl(200, 15%, 8%);
   .search-bar, .drop-down, input, select, option, header{
     background: hsl(0, 0%, 100%);
     color: hsl(200, 15%, 8%);
+    -webkit-appearance:none;
   }
   input::placeholder{
     color: hsl(200, 15%, 8%);
@@ -32,6 +33,7 @@ color: hsl(0, 0%, 100%);;
   .search-bar, .drop-down, input, select, option, header{
     background: hsl(209, 23%, 22%);
     color: hsl(0, 0%, 100%);
+    -webkit-appearance:none;
   }
   input::placeholder{
     color: hsl(0, 0%, 100%);
@@ -128,6 +130,12 @@ header{
     padding: 20px 30px 20px 30px;
     border-radius: 5px;
     box-shadow: 1px 1px 5px 0px #ccc;
+    display: flex;
+
+    .fas{
+      padding-right: 10px;
+    }
+
 
     select{
       border: 0;

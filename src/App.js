@@ -47,7 +47,8 @@ const App = () => {
   if(countrySearch && !regionSearch){
       return allCountries.filter( (allCountries) =>{
         let countryName = allCountries.name.toLowerCase();
-        return countryName.includes(countrySearch)
+        let countrySearchlwr = countrySearch.toLowerCase();
+        return countryName.includes(countrySearchlwr)
       })
   };
   // if there is search for region but no name

@@ -5,6 +5,7 @@ const DropDown = (props) => {
 	
 	return(
 		<div className="drop-down">
+		<i className="fas fa-chevron-down"></i>
 			<select name="countries" id="countries" onChange={() => props.dropDownFunc()}>
 						<option value="">Filter by Region</option>
 						<option value="africa">Africa</option>

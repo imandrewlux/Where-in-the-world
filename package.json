@@ -1,5 +1,6 @@
 {
   "name": "radish-health-takehome",
+  "homepage": "https://andrewlux.com/whereintheworld/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
